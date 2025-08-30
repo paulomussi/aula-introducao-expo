@@ -26,14 +26,37 @@ const styles = StyleSheet.create(
             margin: 10,  
             fontFamily: 'Cochin',    
             color:'#09ff00ff',
+            textAlign: 'auto',
+            backgroundColor: '#037209ff',
         },
         txtSP:{
             fontSize: RFPercentage(2.5),
             padding: 10,
             margin: 10,  
             fontFamily: 'Cochin',  
-            color: '#ff0000ff',        
+            color: '#ff0000ff',   
+            textAlign: 'auto',     
+            backgroundColor: '#4d0505ff',
         },
+        txtSexta:{
+            fontSize: RFPercentage(2.5),
+            padding: 10,
+            margin: 10,  
+            fontFamily: 'Cochin',  
+            color: '#5e5c5cff',   
+            textAlign: 'auto',     
+            backgroundColor: '#ffffffff',
+        },
+        txtSabado:{
+            fontSize: RFPercentage(2.5),
+            padding: 10,
+            margin: 10,  
+            fontFamily: 'Cochin',  
+            color: '#a8a5a5ff',   
+            textAlign: 'auto', 
+            backgroundColor: '#000000ff',    
+        },
+
     }
 );
  
