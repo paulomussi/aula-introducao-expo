@@ -7,7 +7,7 @@ const styles = StyleSheet.create(
         container: {
             flex: 1,
             backgroundColor: '#fff',
-            allignItems: 'center',
+            alignItems: 'center',
             padding: 8,
             borderRadius: 20,
         },
@@ -27,8 +27,10 @@ const styles = StyleSheet.create(
             borderRadius: 20,
         },
         imagem: {
-            width: '80%',
+            width: '40%',
+            height: '100',
             resizeMode: 'contain',
+            margin: 80,
         },
     }
 );
