@@ -14,20 +14,15 @@ function Atividade02() {
         
          <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 02</Text>
-
             
             <Card 
                 imagem={img1}
                 nome={'Camiseta Branca'}
                 descricao={'Camiseta 1 Tradicional'}
-                valor='R$ 500'>             
+                valor={'R$ 500'}
+            />         
             
-            </Card>
-
-
-
-{/*           
-            <Card nome={'AVISO'}> O tempo acabou!</Card> */}
+        
         </View>
        
         

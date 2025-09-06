@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderRadius: 20,
         marginBottom: RFPercentage(1),
+        flexDirection: 'row',
     },
     titulo: {
         fontSize: RFPercentage(3),
@@ -22,11 +23,12 @@ const styles = StyleSheet.create({
         color: '#fafafa',
         
     },
-     imagem: {
-        width: '40%',
-        height: '100',
-        resizeMode: 'contain',
-    },
+     containerImage:{
+        width: '30%',
+     },
+     containerTexto:{
+        width: '70%',
+     },
 });
 
 export default styles;
