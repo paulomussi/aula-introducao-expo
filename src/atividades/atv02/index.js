@@ -7,37 +7,31 @@ import img2 from '../../../assets/sp2.jpg';
 import img3 from '../../../assets/sp3.jpg';
 import img4 from '../../../assets/sp4.jpg';
 
-import Mensagem from './mensagem';
+import Card from './card';
 
 function Atividade02() {
     return(
-        <View style={styles.container}>
+        
+         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 02</Text>
+
             
-        <Mensagem titulo={'Camiseta Branca'}>Camiseta branca com listras vermelho, branco e preto.
-        <Image source={img1} style={styles.imagem} />
-        </Mensagem>
+            <Card 
+                imagem={img1}
+                nome={'Camiseta Branca'}
+                descricao={'Camiseta 1 Tradicional'}
+                valor='R$ 500'>             
+            
+            </Card>
 
-        <Mensagem titulo={'Camiseta Branca'}>Camiseta branca com listras vermelho, branco e preto.
-        <Image source={img2} style={styles.imagem}/>
-        </Mensagem>
 
-        <Mensagem titulo={'Camiseta Branca'}>Camiseta branca com listras vermelho, branco e preto.
-        <Image source={img3} style={styles.imagem} />
-        </Mensagem>
 
-        <Mensagem titulo={'Camiseta Branca'}>Camiseta branca com listras vermelho, branco e preto.
-        <Image source={img4} style={styles.imagem} />
-        </Mensagem>
-{/*     
-            <Image source={img2} style={styles.imagem} />
-            <Image source={img3} style={styles.imagem} />
-            <Image source={img4} style={styles.imagem} /> */}
-
-            {/* 
-            <Mensagem titulo={'SUCESSO'}> Acesso permitido </Mensagem>
-            <Mensagem titulo={'AVISO'}> O tempo acabou!</Mensagem> */}
+{/*           
+            <Card nome={'AVISO'}> O tempo acabou!</Card> */}
         </View>
+       
+        
+       
     );
 }
 

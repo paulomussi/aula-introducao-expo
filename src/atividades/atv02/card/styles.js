@@ -22,6 +22,11 @@ const styles = StyleSheet.create({
         color: '#fafafa',
         
     },
+     imagem: {
+        width: '40%',
+        height: '100',
+        resizeMode: 'contain',
+    },
 });
 
 export default styles;

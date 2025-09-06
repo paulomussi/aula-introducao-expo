@@ -30,7 +30,6 @@ const styles = StyleSheet.create(
             width: '40%',
             height: '100',
             resizeMode: 'contain',
-            margin: 80,
         },
     }
 );
