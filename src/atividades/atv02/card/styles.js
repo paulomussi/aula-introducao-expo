@@ -25,9 +25,11 @@ const styles = StyleSheet.create({
     },
      containerImage:{
         width: '30%',
+        resizeMode: 'contain',
      },
      containerTexto:{
         width: '70%',
+        resizeMode: 'contain',
      },
 });
 

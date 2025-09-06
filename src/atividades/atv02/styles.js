@@ -26,11 +26,11 @@ const styles = StyleSheet.create(
             textAlignVertical: 'center',
             borderRadius: 20,
         },
-        imagem: {
-            width: '40%',
-            height: '100',
-            resizeMode: 'contain',
-        },
+        // imagem: {
+        //     width: '40%',
+        //     height: '100',
+        //     resizeMode: 'contain',
+        // },
     }
 );
  
