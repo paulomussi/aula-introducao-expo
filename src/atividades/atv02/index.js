@@ -19,9 +19,29 @@ function Atividade02() {
                 imagem={img1}
                 nome={'Camiseta Branca'}
                 descricao={'Camiseta 1 Tradicional'}
-                valor={'R$ 500'}
-            />         
-            
+                valor={'R$ 500,00'}
+            />        
+
+            <Card 
+                imagem={img2}
+                nome={'Camiseta Branca'}
+                descricao={'Camiseta 1 Tradicional'}
+                valor={'R$ 400,00'}
+            />                  
+
+            <Card 
+                imagem={img3}
+                nome={'Camiseta Branca'}
+                descricao={'Camiseta 1 Tradicional'}
+                valor={'R$ 350,00'}
+            />                  
+
+            <Card 
+                imagem={img4}
+                nome={'Camiseta Branca'}
+                descricao={'Camiseta 1 Tradicional'}
+                valor={'R$ 380,00'}
+            />                               
         
         </View>
        
