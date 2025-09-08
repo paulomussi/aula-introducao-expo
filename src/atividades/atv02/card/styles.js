@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         color: '#fafafa',
         
     },
-     containerImage:{
+     containerImagem:{
         width: '30%',
         resizeMode: 'contain',
      },
