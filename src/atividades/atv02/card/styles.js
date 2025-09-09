@@ -25,12 +25,16 @@ const styles = StyleSheet.create({
     },
      containerImagem:{
         width: '30%',
-        resizeMode: 'contain',
+        
      },
      containerTexto:{
-        width: '70%',
-        resizeMode: 'contain',
+        width: '70%',        
      },
+     imagem: {
+        height: RFPercentage(10),
+        width: RFPercentage(10),
+        resizeMode: 'stretch',
+    },
 });
 
 export default styles;

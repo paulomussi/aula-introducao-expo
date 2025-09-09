@@ -24,21 +24,21 @@ function Atividade02() {
 
             <Card 
                 imagem={img2}
-                nome={'Camiseta Branca'}
+                nome={'Vermelha Preta e Branca'}
                 descricao={'Camiseta 1 Tradicional'}
                 valor={'R$ 400,00'}
             />                  
 
             <Card 
                 imagem={img3}
-                nome={'Camiseta Branca'}
+                nome={'Camiseta Preta com Vermelho'}
                 descricao={'Camiseta 1 Tradicional'}
                 valor={'R$ 350,00'}
             />                  
 
             <Card 
                 imagem={img4}
-                nome={'Camiseta Branca'}
+                nome={'Camiseta Azul Especial'}
                 descricao={'Camiseta 1 Tradicional'}
                 valor={'R$ 380,00'}
             />                               
