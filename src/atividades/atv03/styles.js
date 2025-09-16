@@ -34,6 +34,10 @@ const styles = StyleSheet.create(
             color:'rgba(255, 255, 255, 1)',
             fontSize: RFPercentage(2),
         },
+        botaoMenor:{
+            flexDirection: 'row',
+        },
+
     }
 );
  

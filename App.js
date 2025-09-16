@@ -7,6 +7,7 @@ import { RFPercentage } from 'react-native-responsive-fontsize';
 import Exemplo01 from './src/exemplos/ex01';
 import Exemplo02 from './src/exemplos/ex02';
 import Exemplo03 from './src/exemplos/ex03';
+import Exemplo04 from './src/exemplos/ex04';
 
 
 import Atividade01 from './src/atividades/atv01';
@@ -16,7 +17,7 @@ import Atividade03 from './src/atividades/atv03';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade03/>
+      <Exemplo04/>
       <StatusBar style="auto" />
     </View>
   );

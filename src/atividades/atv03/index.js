@@ -14,7 +14,7 @@ export default function Exemplo03() {
         setNumero(numero + 1)
         // console.log(numero);
     }
-    function handleDecrementar() {
+    function handleDiminuir() {
         setNumero(numero - 1)
     }
     function handleLimpar() {
@@ -33,30 +33,25 @@ export default function Exemplo03() {
                 accessibilityLabel='Botão de alerta'
             /> */}
 
+
+          
+                <View style={styles.botaoMenor}>
+                    <TouchableOpacity
+                        style={styles.botao}
+                        onPress={() => handleDiminuir()}>
+                        <Text style={styles.txtBotao}>-</Text>
+                    </TouchableOpacity>              
+                
             <Text style={styles.txt}>{numero}</Text>
 
-            <View>
-                <View>
                     <TouchableOpacity
                         style={styles.botao}
-                        onPress={() => handleDecrementar()}
-                    >
-                        <Text style={styles.txtBotao}>-</Text>
-                    </TouchableOpacity>
-                </View>
-
-
-                <View >
-                    <TouchableOpacity
-                        style={styles.botao}
-                        onPress={() => handleIncrementar()}
-                    >
+                        onPress={() => handleIncrementar()}>
                         <Text style={styles.txtBotao}>+</Text>
                     </TouchableOpacity>
                 </View>
 
 
-            </View>
 
 
             <TouchableOpacity
