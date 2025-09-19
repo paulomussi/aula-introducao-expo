@@ -37,9 +37,7 @@ export default function Exemplo01() {
             <TouchableOpacity
                 style={styles.botao}
                 onPress={() => {}}>
-
-                    <Text style={styles.txtBotao}>Exibir texto</Text>
-                
+                    <Text style={styles.txtBotao}>Exibir texto</Text>                
             </TouchableOpacity>
 
         </View>
