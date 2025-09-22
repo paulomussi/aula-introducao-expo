@@ -17,7 +17,7 @@ export default function Exemplo01() {
         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 04</Text>
 
-            <Text>Nome</Text>
+            <Text style={styles.txtNomeSobre}>Nome</Text>
             <TextInput
                 onChangeText={setNome}
                 placeholder=''
@@ -25,7 +25,7 @@ export default function Exemplo01() {
                 style={styles.input}
             />
 
-            <Text>Sobrenome</Text>
+            <Text style={styles.txtNomeSobre}>Sobrenome</Text>
             <TextInput
                 onChangeText={setSobrenome}
                 placeholder=''

@@ -45,6 +45,10 @@ const styles = StyleSheet.create(
             fontSize: RFPercentage(2.5),
             color: '#fafafa',
         },
+        txtNomeSobre:{
+            FontSize: RFPercentage(2),
+            alignItems: 'flex-start'
+        }
     }
 );
  
