@@ -47,8 +47,8 @@ const styles = StyleSheet.create(
         },
         txtNomeSobre:{
             FontSize: RFPercentage(2),
-            alignItems: 'flex-start'
-        }
+                  
+        },
     }
 );
  
