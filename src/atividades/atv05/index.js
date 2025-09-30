@@ -1,7 +1,5 @@
-import { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity } from 'react-native';
-
-
+import React, { useState } from 'react';
+import { Text, View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 
 export default function Index(){
 
