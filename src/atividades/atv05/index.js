@@ -1,17 +1,32 @@
 import React, { useState } from 'react';
-import { Text, View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
-export default function Index(){
+
+export default function Atividade05(){
 
     const [n1, setN1] = useState(0);
     const [n2, setN2] = useState(0);
     const [total, setTotal] = useState(0);
     
     function Soma() {
-        const conta = (parseInt(n1) + parseInt(n2));
+        const conta = (parseFloat(n1) + parseFloat(n2));
         setTotal(conta.toString());
     }
 
+    function Sub() {
+        const conta = (parseFloat(n1) - parseFloat(n2));
+        setTotal(conta.toString());
+    }
+
+    function Mult() {
+        const conta = (parseFloat(n1) * parseFloat(n2));
+        setTotal(conta.toString());
+    }
+
+    function Div() {
+        const conta = (parseFloat(n1) / parseFloat(n2));
+        setTotal(conta.toString());
+    }
 
     return (
         <View style={styles.container}>
@@ -37,7 +52,7 @@ export default function Index(){
 
             <Text style={[styles.txtSaida, {margin: 0}]}> = </Text>
 
-            <Text style={styles.txtLabel}> Total </Text>
+            <Text style={styles.txtLabel}> {total} </Text>
             <TextInput
                 style={styles.txtEntrada}
                 editable={false}
@@ -47,6 +62,19 @@ export default function Index(){
             <TouchableOpacity style={styles.button} onPress={() => Soma()}>
                 <Text style={styles.txtButton}> + </Text>
             </TouchableOpacity>
+
+            <TouchableOpacity style={styles.button} onPress={() => Sub()}>
+                <Text style={styles.txtButton}> - </Text>
+            </TouchableOpacity> 
+ 
+            <TouchableOpacity style={styles.button} onPress={() => Mult()}>
+                <Text style={styles.txtButton}> * </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={styles.button} onPress={() => Div()}>
+                <Text style={styles.txtButton}> / </Text>
+            </TouchableOpacity> 
+
 
             
         </View>

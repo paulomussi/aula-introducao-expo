@@ -4,7 +4,7 @@ import { View, Text, Button, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
-export default function Exemplo03() {
+export default function Atividade03() {
 
     // let numero = 10;
 

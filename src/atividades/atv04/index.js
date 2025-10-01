@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
-export default function Exemplo01() {
+export default function Atividade04() {
     const [nome, setNome] = useState('');
     const [sobrenome, setSobrenome] = useState('');
     const [nomeCompleto, setNomeCompleto] = useState('');
