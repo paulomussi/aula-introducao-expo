@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Text, View, TextInput, TouchableOpacity } from 'react-native';
-import { RFPercentage } from 'react-native-responsive-fontsize';
 import styles from './styles'; // 👈 Importando estilos
 
 export default function Atividade05() {
