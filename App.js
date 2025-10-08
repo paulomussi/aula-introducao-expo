@@ -16,10 +16,12 @@ import Atividade03 from './src/atividades/atv03';
 import Atividade04 from './src/atividades/atv04';
 import Atividade05 from './src/atividades/atv05';
 
+import calculadora from './src/atividades/calculadora';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade05/>
+      <calculadora/>
       <StatusBar style="auto" />
     </View>
   );
