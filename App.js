@@ -21,7 +21,7 @@ import calculadora from './src/atividades/calculadora';
 export default function App() {
   return (
     <View style={styles.container}>
-      <calculadora/>
+      <Atividade05/>
       <StatusBar style="auto" />
     </View>
   );

@@ -8,8 +8,8 @@ export default function calculadora(){
     const [total, setTotal] = useState(0);
 }
 
-return (
-    <View>
-      <Text style={styles.title}>Calculadora</Text>
-    </View>
-);
+// return (
+    // <View>
+    //   <Text style={styles.title}>Calculadora</Text>
+    // </View>
+// );
