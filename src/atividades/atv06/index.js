@@ -14,11 +14,22 @@ export default function Atividade06() {
        const valor = massa / (altura * altura);
         setResultado(valor);
         
-          if (valor < 18.5) {
+        if (resultado < 18.5) {
         alert('Abaixo do peso');
+     }   else if (resultado >= 18.5 && resultado < 24.9) {
+        alert('Peso normal');
+     }   else if (resultado >= 25 && resultado < 29.9) {
+        alert('Acima do peso');
+     }  else if (resultado >= 30 && resultado < 34.9) {
+        alert('Obesidade grau I');
+     }  else if (resultado >= 35 && resultado < 39.9) {
+        alert('Obesidade grau II');
+     } else if (resultado >= 40) {
+        alert('Obesidade grau III');  
      }
-     }
-
+    }
+    
+    
    
 
     return (
