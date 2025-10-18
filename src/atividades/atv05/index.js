@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Text, View, TextInput, TouchableOpacity } from 'react-native';
-import styles from './styles'; // 👈 Importando estilos
+import styles from './styles';
 
 export default function Atividade05() {
   const [n1, setN1] = useState('');
