@@ -9,6 +9,7 @@ import Exemplo02 from './src/exemplos/ex02';
 import Exemplo03 from './src/exemplos/ex03';
 import Exemplo04 from './src/exemplos/ex04';
 import Exemplo06 from './src/exemplos/ex06';
+import Exemplo08 from './src/exemplos/ex08';
 
 
 import Atividade01 from './src/atividades/atv01';
@@ -24,7 +25,7 @@ import calculadora from './src/atividades/calculadora';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade06/>
+      <Exemplo08/>
       <StatusBar style="auto" />
     </View>
   );
