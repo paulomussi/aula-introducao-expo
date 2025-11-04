@@ -32,7 +32,7 @@ export default function Ex08() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Lista de Compras</Text>
+      <Text style={styles.titulo}>Lista de Compras</Text>
       <AddItem addItem={addItem} />
       <FlatList
         data={items}
